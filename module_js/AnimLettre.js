@@ -33,8 +33,7 @@ export class AnimLettre {
         let i = 0;
         for(let uneLettre of lesLettres){
                 let elmLettres = this.creerElement(elmConteneur, 'div', uneLettre, 'mot')
-                elmLettre.style.animationDelay = (i * 0.5) + "s";
-                i++;
+                elmLettres.style.animationDelay = (i++ * 0.5) + "s";
                 elmLettres.style.color =  tabCouleur[(i++)%7]
         }
 
