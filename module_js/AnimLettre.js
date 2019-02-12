@@ -17,7 +17,6 @@ export class AnimLettre {
     constructor(lesLettres, elementParent, fonction) {
         //Récupérer les valeurs passées en paramètre			
         this.lesLettres = lesLettres;
-        
         this.elmParent = elementParent
         this.anim_Lettres(this.lesLettres)
         this.fonction = fonction
@@ -61,6 +60,7 @@ export class AnimLettre {
     terminerIntro(evt) {
         this.elmParent.firstChild.classList.add('deplacementContenuIntro')
         this.elmParent.firstChild.addEventListener('animationend', this.passerVersAnimationSuivante.bind(this))
+        this.passerVersAnimationSuivante.bind(this))
     }
 
     passerVersAnimationSuivante(evt) {
