@@ -45,7 +45,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-@import "navigation/navigation";  
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# animation
+--------------------------------------------------------------*/
+@import "animation/animation"; 
 
 /*--------------------------------------------------------------
 # layout
