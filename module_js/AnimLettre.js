@@ -61,6 +61,7 @@ export class AnimLettre {
     terminerIntro(evt) {
         this.elmParent.firstChild.classList.add('deplacementContenuIntro')
         this.elmParent.firstChild.addEventListener('animationend', this.passerVersAnimationSuivante.bind(this))
+        //this.passerVersAnimationSuivante.bind(this))
     }
 
     passerVersAnimationSuivante(evt) {
