@@ -5,12 +5,10 @@
 .mot>div {
     font-size: 9vw;
     text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7);
+    animation: animationLettre .5s both;
 
 }
 
-.mot:nth-child(1)>div {
-    animation: animationLettre 1s both;
-}
 
 @keyframes animationLettre {
     from {
