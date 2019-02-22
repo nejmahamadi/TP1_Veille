@@ -943,9 +943,12 @@ body {
   font-size: 150%;
 }
 
-.header,
-.footer {
+.header {
   background-color: #58b4b7;
+}
+
+.footer {
+  background-color: black;
 }
 
 .sidebar2 {
@@ -1009,10 +1012,6 @@ span {
   background-attachment: fixed;
   opacity: 0.9;
   /* margin-top: -20px; */
-}
-
-.nav, .footer {
-  background-color: #eeeeee;
 }
 
 /* JUMBOTRON */
