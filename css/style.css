@@ -936,7 +936,7 @@ body {
 }
 
 .box {
-  background-color: #444;
+  background-color: #d9ebef;
   color: #fff;
   border-radius: 5px;
   padding: 10px;
@@ -1011,7 +1011,7 @@ span {
   /* margin-top: -20px; */
 }
 
-.nav, .portfolio, .footer {
+.nav, .footer {
   background-color: #eeeeee;
 }
 
