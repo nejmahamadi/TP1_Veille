@@ -781,7 +781,7 @@ body {
 }
 
 .menu {
-  background-color: #8d4b4b;
+  background-color: black;
   text-align: center;
   /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
   width: 100vw;
