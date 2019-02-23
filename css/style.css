@@ -944,7 +944,7 @@ body {
 }
 
 .header {
-  background-color: #58b4b7;
+  background-color: #a7b7c9;
 }
 
 .footer {
@@ -971,7 +971,7 @@ body {
 /* HEADER TAGS */
 h1, h2 {
   font-weight: 700 !important;
-  color: #ff9100;
+  color: black;
 }
 
 h2 {
@@ -986,7 +986,7 @@ a {
 }
 
 a:hover {
-  color: #000000 !important;
+  color: #97e1ee !important;
   text-decoration: none;
   font-weight: 700;
 }
@@ -1006,11 +1006,11 @@ span {
 }
 
 .jumbotron {
-  background-image: url("https://source.unsplash.com/Hl1stIQkVRw/2300x2050") !important;
-  /* background-size: cover; */
+  background-image: url("../../../img/img13.jpg") !important;
+  background-size: cover;
   background-position: 50% 100%;
   background-attachment: fixed;
-  opacity: 0.9;
+  opacity: 0.7;
   /* margin-top: -20px; */
 }
 
