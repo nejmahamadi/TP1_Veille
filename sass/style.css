@@ -531,13 +531,13 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(2) {
-  background-color: #dda9d9;
+  background-color: #f59723;
   -webkit-animation: anim2 0.5s 0.5s backwards;
           animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-  background-color: #b2bbe7;
+  background-color: #58b34c;
   -webkit-animation: anim3 0.5s 1s backwards;
           animation: anim3 0.5s 1s backwards;
 }

@@ -28,17 +28,17 @@
 }
 
 .rectangle:nth-child(1) {
-    background-color: #e54792;
+    background-color: #c9a7b7;
     animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-    background-color: #f59723;
+    background-color: #dda9d9;
     animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-    background-color: #58b34c;
+    background-color: #b2bbe7;
     animation: anim3 0.5s 1s backwards;
 }
 
