@@ -557,8 +557,8 @@ a:hover, a:active {
 
 @-webkit-keyframes anim1 {
   from {
-    -webkit-transform: translateY(-50vh) rotate(-45deg);
-            transform: translateY(-50vh) rotate(-45deg);
+    -webkit-transform: translateY(-50vh) rotate(-180deg);
+            transform: translateY(-50vh) rotate(-180deg);
   }
   to {
     -webkit-transform: translateY(0%) rotate(0);
@@ -568,8 +568,8 @@ a:hover, a:active {
 
 @keyframes anim1 {
   from {
-    -webkit-transform: translateY(-50vh) rotate(-45deg);
-            transform: translateY(-50vh) rotate(-45deg);
+    -webkit-transform: translateY(-50vh) rotate(-180deg);
+            transform: translateY(-50vh) rotate(-180deg);
   }
   to {
     -webkit-transform: translateY(0%) rotate(0);
@@ -579,8 +579,8 @@ a:hover, a:active {
 
 @-webkit-keyframes anim2 {
   from {
-    -webkit-transform: translateX(-200%) rotate(-45deg);
-            transform: translateX(-200%) rotate(-45deg);
+    -webkit-transform: translateX(-200%) rotate(-360deg);
+            transform: translateX(-200%) rotate(-360deg);
   }
   to {
     -webkit-transform: translateX(0%) rotate(0);
@@ -590,8 +590,8 @@ a:hover, a:active {
 
 @keyframes anim2 {
   from {
-    -webkit-transform: translateX(-200%) rotate(-45deg);
-            transform: translateX(-200%) rotate(-45deg);
+    -webkit-transform: translateX(-200%) rotate(-360deg);
+            transform: translateX(-200%) rotate(-360deg);
   }
   to {
     -webkit-transform: translateX(0%) rotate(0);
@@ -623,8 +623,8 @@ a:hover, a:active {
 
 @-webkit-keyframes animGo {
   from {
-    -webkit-transform: translateY(200vh) rotate(-45deg);
-            transform: translateY(200vh) rotate(-45deg);
+    -webkit-transform: translateY(200vh) rotate(-360deg);
+            transform: translateY(200vh) rotate(-360deg);
   }
   50%,
   to {
@@ -635,8 +635,8 @@ a:hover, a:active {
 
 @keyframes animGo {
   from {
-    -webkit-transform: translateY(200vh) rotate(-45deg);
-            transform: translateY(200vh) rotate(-45deg);
+    -webkit-transform: translateY(200vh) rotate(-360deg);
+            transform: translateY(200vh) rotate(-360deg);
   }
   50%,
   to {
@@ -679,51 +679,58 @@ a:hover, a:active {
 .mot > div {
   font-size: 9vw;
   text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7);
-  -webkit-animation: animationLettre .5s both;
-          animation: animationLettre .5s both;
+}
+
+.mot:nth-child(1) > div {
+  -webkit-animation: animationLettre 1s both;
+          animation: animationLettre 1s both;
 }
 
 @-webkit-keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateY(-75vw) rotate(180deg) scale(1);
-            transform: translateY(-75vw) rotate(180deg) scale(1);
+    -webkit-transform: rotate(180deg) rotate(360deg) scale(1);
+            transform: rotate(180deg) rotate(360deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
+    color: #3c71ad;
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: rotate(30vw) rotate(180deg) scale(1.5);
+            transform: rotate(30vw) rotate(180deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
   to {
     /* opacity:  1; */
-    -webkit-transform: translateY(0%) rotate(0deg) scale(1);
-            transform: translateY(0%) rotate(0deg) scale(1);
+    -webkit-transform: rotate(360deg) rotate(0deg) scale(1);
+            transform: rotate(360deg) rotate(0deg) scale(1);
+    color: black;
   }
 }
 
 @keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateY(-75vw) rotate(180deg) scale(1);
-            transform: translateY(-75vw) rotate(180deg) scale(1);
+    -webkit-transform: rotate(180deg) rotate(360deg) scale(1);
+            transform: rotate(180deg) rotate(360deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
+    color: #3c71ad;
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: rotate(30vw) rotate(180deg) scale(1.5);
+            transform: rotate(30vw) rotate(180deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
   to {
     /* opacity:  1; */
-    -webkit-transform: translateY(0%) rotate(0deg) scale(1);
-            transform: translateY(0%) rotate(0deg) scale(1);
+    -webkit-transform: rotate(360deg) rotate(0deg) scale(1);
+            transform: rotate(360deg) rotate(0deg) scale(1);
+    color: black;
   }
 }
 
@@ -1262,6 +1269,15 @@ input[type=text], input[type=email], textarea {
     padding-right: 1vw;
     font-size: 0.9rem;
   }
+}
+
+/*****************************/
+/*animation glitch*/
+.log {
+  margin: auto;
+  color: white;
+  font-size: 24px;
+  font-family: monospace;
 }
 
 /*--------------------------------------------------------------*/

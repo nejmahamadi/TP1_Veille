@@ -56,7 +56,7 @@
 
 @keyframes anim1 {
     from {
-        transform: translateY(-50vh) rotate(-45deg);
+        transform: translateY(-50vh) rotate(-180deg);
 
     }
 
@@ -67,7 +67,7 @@
 
 @keyframes anim2 {
     from {
-        transform: translateX(-200%) rotate(-45deg);
+        transform: translateX(-200%) rotate(-360deg);
     }
 
     to {
@@ -87,7 +87,7 @@
 
 @keyframes animGo {
     from {
-        transform: translateY(200vh) rotate(-45deg);
+        transform: translateY(200vh) rotate(-360deg);
     }
 
     50%,
