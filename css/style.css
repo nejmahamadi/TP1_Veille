@@ -943,8 +943,8 @@ body {
 }
 
 .box {
-  background-color: #000000;
-  color: #fff;
+  background-color: #ffffff;
+  color: black;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
@@ -959,8 +959,8 @@ body {
 }
 
 .sidebar2 {
-  background-color: #ccc;
-  color: #444;
+  background-color: white;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -976,7 +976,7 @@ body {
 
 h1, h2 {
   font-weight: 700 !important;
-  color: white;
+  color: black;
 }
 
 .about-text h2 {
