@@ -9,6 +9,21 @@ body {
     font-weight: 700 !important;
     color: rgb(255, 255, 255);
   }
+  .about-text h2{
+      animation-name: example;
+      animation-duration: 1.5s;
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+  .example {
+    animation-name: example;
+    animation-duration: 1s;
+  }
   
   h2 {
     font-size: 2.5em;

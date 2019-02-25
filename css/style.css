@@ -979,6 +979,50 @@ h1, h2 {
   color: white;
 }
 
+.about-text h2 {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+/* Standard syntax */
+@-webkit-keyframes example {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes example {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.example {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
 h2 {
   font-size: 2.5em;
 }
