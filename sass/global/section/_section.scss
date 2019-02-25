@@ -130,6 +130,13 @@ body {
     color: #000000;
   }
   
+  /* FORM */
+input[type=text], input[type=email], textarea {
+  box-sizing: border-box;
+  border: 2px solid #e0e0e0;
+  /*width and padding in media queries in grid.css */
+
+}
   
   /* CURSOR */
   .pointer-cursor {
