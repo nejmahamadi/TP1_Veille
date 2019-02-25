@@ -1,12 +1,10 @@
 /* STYLE.CSS */
 
 body {
-
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
   }
   
-  /* HEADER TAGS */
   
   h1, h2 {
     font-weight: 700 !important;
@@ -17,7 +15,6 @@ body {
     font-size: 2.5em;
   }
   
-  /* HYPERLINKS */
   
   a {
     color: hsla(34, 100%, 50%, 1);
@@ -61,11 +58,11 @@ body {
   /* JUMBOTRON */
   
   
-  /* .jumbotron-content {
+  .jumbotron-content {
   tex0a
     justify-content: center;
     height: 100vh;
-  } */
+  } 
   
   .title {
     background-color: hsla(34, 100%, 50%, 0.72);
@@ -346,11 +343,6 @@ body {
   }
   
 
-  /*****************************/
-  /*animation glitch*/
-  .log {
-    margin: auto;
-    color: white;
-    font-size: 24px;
-    font-family: monospace
-  }
+
+
+  
