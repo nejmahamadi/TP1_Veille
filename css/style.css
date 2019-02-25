@@ -933,6 +933,10 @@ body {
   .menu a:first-child {
     border-top: none;
   }
+  .menu a:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
   .conteneur {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;

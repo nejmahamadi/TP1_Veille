@@ -156,6 +156,9 @@ body {
 		 &:first-child {
 				border-top: none;
 			}
+		 }
+		 a:hover{
+			 transform: scale(1.1);
 		 }	
 
 	}
