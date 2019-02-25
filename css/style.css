@@ -467,7 +467,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .menu a {
   text-decoration: none;
-  color: white;
+  color: black;
   border-bottom: 1px solid white;
   font-size: 1rem;
   padding: 0.5rem;
@@ -788,7 +788,7 @@ body {
 }
 
 .menu {
-  background-color: black;
+  background-color: white;
   text-align: center;
   /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
   width: 100vw;
